@@ -395,6 +395,8 @@ public class BasraGame extends JFrame implements MouseMotionListener
     }
 
 
+    //Searched and found this function to get all possible combinations for the cards on StackOverFlow
+    //https://stackoverflow.com/a/29914908
     private List<ArrayList<PlayingCard>> getCombinations (ArrayList<PlayingCard> input, int k, int cardValue)
     {
         List<ArrayList<PlayingCard>> subsets = new ArrayList<>();
