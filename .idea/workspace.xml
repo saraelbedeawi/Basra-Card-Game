@@ -2,6 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="07f2b2fc-52e9-4370-9e86-8df6aaaaeb69" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Game/game/AymanTarneeb.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Game/game/TarneebGame$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Game/game/TarneebGame$2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Game/game/TarneebGame.class" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/game/BasraGame.java" afterPath="$PROJECT_DIR$/src/game/BasraGame.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -37,30 +42,32 @@
       <file leaf-file-name="BasraGame.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/game/BasraGame.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="539">
-              <caret line="398" column="42" lean-forward="false" selection-start-line="398" selection-start-column="42" selection-end-line="398" selection-end-column="42" />
+            <state relative-caret-position="18">
+              <caret line="34" column="12" lean-forward="true" selection-start-line="34" selection-start-column="12" selection-end-line="34" selection-end-column="12" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="docComment;class#BasraGame#0" expanded="false" />
                 <element signature="e#952#965#0" expanded="true" />
+                <element signature="method#BasraGame#0;class#BasraGame#0" expanded="false" />
                 <element signature="method#refreshView#0;class#BasraGame#0" expanded="false" />
                 <element signature="method#removeplayer2Cards#0;class#BasraGame#0" expanded="false" />
                 <element signature="method#removeBase#0;class#BasraGame#0" expanded="false" />
                 <element signature="method#removePlayer1Cards#0;class#BasraGame#0" expanded="false" />
                 <element signature="method#fillArray#0;class#BasraGame#0" expanded="false" />
                 <element signature="method#SetPlayer1Cards#0;class#BasraGame#0" expanded="false" />
-                <element signature="e#4448#4844#0" expanded="true" />
-                <element signature="e#4843#4844#0" expanded="true" />
+                <element signature="e#4693#5089#0" expanded="true" />
+                <element signature="e#5088#5089#0" expanded="true" />
                 <element signature="method#addToPlayer#0;class#BasraGame#0" expanded="false" />
                 <element signature="method#Play#0;class#BasraGame#0" expanded="false" />
-                <element signature="method#CheckCalculations#0;class#BasraGame#0" expanded="false" />
                 <element signature="method#CheckCards#0;class#BasraGame#0" expanded="false" />
+                <element signature="method#setPlayer2Cards#0;class#BasraGame#0" expanded="false" />
+                <element signature="method#setBaseCrads#0;class#BasraGame#0" expanded="false" />
                 <element signature="method#RandomFill#0;class#BasraGame#0" expanded="false" />
                 <element signature="method#mouseDragged#0;class#BasraGame#0" expanded="false" />
                 <element signature="method#mouseMoved#0;class#BasraGame#0" expanded="false" />
                 <element signature="method#getCombinations#0;class#BasraGame#0" expanded="false" />
                 <element signature="method#getSubset#0;class#BasraGame#0" expanded="false" />
-                <element signature="e#13761#13774#0" expanded="true" />
+                <element signature="e#14082#14095#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -286,7 +293,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298122" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3298122" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298122" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -314,31 +321,31 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/game/BasraGame.java</url>
-          <line>305</line>
+          <line>311</line>
           <properties />
           <option name="timeStamp" value="6" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/game/BasraGame.java</url>
-          <line>378</line>
+          <line>384</line>
           <properties />
           <option name="timeStamp" value="15" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/game/BasraGame.java</url>
-          <line>264</line>
+          <line>270</line>
           <properties />
           <option name="timeStamp" value="24" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/game/BasraGame.java</url>
-          <line>415</line>
+          <line>421</line>
           <properties />
           <option name="timeStamp" value="31" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/game/BasraGame.java</url>
-          <line>440</line>
+          <line>446</line>
           <properties />
           <option name="timeStamp" value="33" />
         </line-breakpoint>
@@ -380,24 +387,26 @@
             <element signature="imports" expanded="true" />
             <element signature="docComment;class#BasraGame#0" expanded="false" />
             <element signature="e#952#965#0" expanded="true" />
+            <element signature="method#BasraGame#0;class#BasraGame#0" expanded="false" />
             <element signature="method#refreshView#0;class#BasraGame#0" expanded="false" />
             <element signature="method#removeplayer2Cards#0;class#BasraGame#0" expanded="false" />
             <element signature="method#removeBase#0;class#BasraGame#0" expanded="false" />
             <element signature="method#removePlayer1Cards#0;class#BasraGame#0" expanded="false" />
             <element signature="method#fillArray#0;class#BasraGame#0" expanded="false" />
             <element signature="method#SetPlayer1Cards#0;class#BasraGame#0" expanded="false" />
-            <element signature="e#4448#4844#0" expanded="true" />
-            <element signature="e#4843#4844#0" expanded="true" />
+            <element signature="e#4693#5089#0" expanded="true" />
+            <element signature="e#5088#5089#0" expanded="true" />
             <element signature="method#addToPlayer#0;class#BasraGame#0" expanded="false" />
             <element signature="method#Play#0;class#BasraGame#0" expanded="false" />
-            <element signature="method#CheckCalculations#0;class#BasraGame#0" expanded="false" />
             <element signature="method#CheckCards#0;class#BasraGame#0" expanded="false" />
+            <element signature="method#setPlayer2Cards#0;class#BasraGame#0" expanded="false" />
+            <element signature="method#setBaseCrads#0;class#BasraGame#0" expanded="false" />
             <element signature="method#RandomFill#0;class#BasraGame#0" expanded="false" />
             <element signature="method#mouseDragged#0;class#BasraGame#0" expanded="false" />
             <element signature="method#mouseMoved#0;class#BasraGame#0" expanded="false" />
             <element signature="method#getCombinations#0;class#BasraGame#0" expanded="false" />
             <element signature="method#getSubset#0;class#BasraGame#0" expanded="false" />
-            <element signature="e#13761#13774#0" expanded="true" />
+            <element signature="e#14082#14095#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -426,24 +435,26 @@
             <element signature="imports" expanded="true" />
             <element signature="docComment;class#BasraGame#0" expanded="false" />
             <element signature="e#952#965#0" expanded="true" />
+            <element signature="method#BasraGame#0;class#BasraGame#0" expanded="false" />
             <element signature="method#refreshView#0;class#BasraGame#0" expanded="false" />
             <element signature="method#removeplayer2Cards#0;class#BasraGame#0" expanded="false" />
             <element signature="method#removeBase#0;class#BasraGame#0" expanded="false" />
             <element signature="method#removePlayer1Cards#0;class#BasraGame#0" expanded="false" />
             <element signature="method#fillArray#0;class#BasraGame#0" expanded="false" />
             <element signature="method#SetPlayer1Cards#0;class#BasraGame#0" expanded="false" />
-            <element signature="e#4448#4844#0" expanded="true" />
-            <element signature="e#4843#4844#0" expanded="true" />
+            <element signature="e#4693#5089#0" expanded="true" />
+            <element signature="e#5088#5089#0" expanded="true" />
             <element signature="method#addToPlayer#0;class#BasraGame#0" expanded="false" />
             <element signature="method#Play#0;class#BasraGame#0" expanded="false" />
-            <element signature="method#CheckCalculations#0;class#BasraGame#0" expanded="false" />
             <element signature="method#CheckCards#0;class#BasraGame#0" expanded="false" />
+            <element signature="method#setPlayer2Cards#0;class#BasraGame#0" expanded="false" />
+            <element signature="method#setBaseCrads#0;class#BasraGame#0" expanded="false" />
             <element signature="method#RandomFill#0;class#BasraGame#0" expanded="false" />
             <element signature="method#mouseDragged#0;class#BasraGame#0" expanded="false" />
             <element signature="method#mouseMoved#0;class#BasraGame#0" expanded="false" />
             <element signature="method#getCombinations#0;class#BasraGame#0" expanded="false" />
             <element signature="method#getSubset#0;class#BasraGame#0" expanded="false" />
-            <element signature="e#13761#13774#0" expanded="true" />
+            <element signature="e#14082#14095#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -475,32 +486,42 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/game/BasraGame.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="539">
-          <caret line="398" column="42" lean-forward="false" selection-start-line="398" selection-start-column="42" selection-end-line="398" selection-end-column="42" />
+        <state relative-caret-position="18">
+          <caret line="34" column="12" lean-forward="true" selection-start-line="34" selection-start-column="12" selection-end-line="34" selection-end-column="12" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="docComment;class#BasraGame#0" expanded="false" />
             <element signature="e#952#965#0" expanded="true" />
+            <element signature="method#BasraGame#0;class#BasraGame#0" expanded="false" />
             <element signature="method#refreshView#0;class#BasraGame#0" expanded="false" />
             <element signature="method#removeplayer2Cards#0;class#BasraGame#0" expanded="false" />
             <element signature="method#removeBase#0;class#BasraGame#0" expanded="false" />
             <element signature="method#removePlayer1Cards#0;class#BasraGame#0" expanded="false" />
             <element signature="method#fillArray#0;class#BasraGame#0" expanded="false" />
             <element signature="method#SetPlayer1Cards#0;class#BasraGame#0" expanded="false" />
-            <element signature="e#4448#4844#0" expanded="true" />
-            <element signature="e#4843#4844#0" expanded="true" />
+            <element signature="e#4693#5089#0" expanded="true" />
+            <element signature="e#5088#5089#0" expanded="true" />
             <element signature="method#addToPlayer#0;class#BasraGame#0" expanded="false" />
             <element signature="method#Play#0;class#BasraGame#0" expanded="false" />
-            <element signature="method#CheckCalculations#0;class#BasraGame#0" expanded="false" />
             <element signature="method#CheckCards#0;class#BasraGame#0" expanded="false" />
+            <element signature="method#setPlayer2Cards#0;class#BasraGame#0" expanded="false" />
+            <element signature="method#setBaseCrads#0;class#BasraGame#0" expanded="false" />
             <element signature="method#RandomFill#0;class#BasraGame#0" expanded="false" />
             <element signature="method#mouseDragged#0;class#BasraGame#0" expanded="false" />
             <element signature="method#mouseMoved#0;class#BasraGame#0" expanded="false" />
             <element signature="method#getCombinations#0;class#BasraGame#0" expanded="false" />
             <element signature="method#getSubset#0;class#BasraGame#0" expanded="false" />
-            <element signature="e#13761#13774#0" expanded="true" />
+            <element signature="e#14082#14095#0" expanded="true" />
           </folding>
         </state>
       </provider>

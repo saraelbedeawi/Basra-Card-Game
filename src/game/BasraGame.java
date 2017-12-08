@@ -37,7 +37,8 @@ public class BasraGame extends JFrame implements MouseMotionListener
     JPanel Player1Pane =new JPanel();
     JPanel player2pane = new JPanel();
     JPanel BasePane = new JPanel();
-
+    JLabel player1Label= new JLabel("Player 1");
+    JLabel player2Label= new JLabel("Player 2");
     public BasraGame()
     {
         setTitle("Basra Card Game");
@@ -63,9 +64,13 @@ public class BasraGame extends JFrame implements MouseMotionListener
         Player1Pane.setBounds(490,10,500,165);
         Player1Pane.setBackground(Color.blue);
         player2pane.setBounds(500,600,500,165);
-       player2pane.setBackground(Color.red);
+        player2pane.setBackground(Color.red);
+        player1Label.setBounds(400,10,60,40);
+        player2Label.setBounds(400,600,60,40);
         add(player2pane);
         add(Player1Pane);
+        add(player1Label);
+        add(player2Label);
         BasePane.setBounds(0,300,1550,165);
         BasePane.setBackground(Color.green);
         add(BasePane);
@@ -242,7 +247,8 @@ public class BasraGame extends JFrame implements MouseMotionListener
                     for(int y = 0; y < subset.size(); y++)
                     {
                         baseCards.remove(subset.get(y));
-
+                        count++;
+                        addToPlayer(count);
                     }
                 }
             }
